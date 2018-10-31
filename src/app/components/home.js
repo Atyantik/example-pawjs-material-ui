@@ -12,11 +12,9 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import Button from '@material-ui/core/Button';
-import Badge from '@material-ui/core/Badge';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import NotificationsIcon from '@material-ui/icons/Notifications';
-import { mainListItems, secondaryListItems } from './listItems';
+import {mainListItems, secondaryListItems, SiteDetails} from './listItems';
 import SimpleLineChart from './SimpleLineChart';
 import SimpleTable from './SimpleTable';
 
@@ -170,6 +168,8 @@ class Home extends React.Component {
             <List>{mainListItems}</List>
             <Divider />
             <List>{secondaryListItems}</List>
+            <Divider/>
+            <List>{SiteDetails}</List>
           </Drawer>
           <main className={classes.content}>
             <div className={classes.appBarSpacer} />
@@ -179,11 +179,32 @@ class Home extends React.Component {
             <Typography component="div" className={classes.chartContainer}>
               <SimpleLineChart />
             </Typography>
+            <div className={classes.appBarSpacer} />
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" />
+            <ins
+              className="adsbygoogle"
+              style={{ display: 'block' }}
+              data-ad-client="ca-pub-7586505628408924"
+              data-ad-slot="5652642939"
+              data-ad-format="auto"
+            />
+            <div className={classes.appBarSpacer} />
             <Typography variant="h4" gutterBottom component="h2">
               Products
             </Typography>
             <div className={classes.tableContainer}>
               <SimpleTable />
+            </div>
+            <div className={classes.appBarSpacer} />
+            <div>
+              <script src="https://codefund.io/scripts/fefc6de5-a0ce-46e8-a15d-f43733b5b454/embed.js" />
+              <div id="codefund_ad" />
+            </div>
+            <div className={classes.appBarSpacer} />
+            <div>
+              This is an example of implementation of Material UI with ReactPWA.
+              Help us grow further visit&nbsp;
+              <a href="https://opencollective.com/react-pwa" target="_blank" rel="noreferrer nofollow noopener">OpenCollective</a>
             </div>
           </main>
         </div>

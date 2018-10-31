@@ -9,6 +9,8 @@ import PeopleIcon from '@material-ui/icons/People';
 import BarChartIcon from '@material-ui/icons/BarChart';
 import LayersIcon from '@material-ui/icons/Layers';
 import AssignmentIcon from '@material-ui/icons/Assignment';
+import WebsiteIcon from '@material-ui/icons/Link';
+import Typography from "@material-ui/core/Typography/Typography";
 
 export const mainListItems = (
   <div>
@@ -65,6 +67,28 @@ export const secondaryListItems = (
         <AssignmentIcon />
       </ListItemIcon>
       <ListItemText primary="Year-end sale" />
+    </ListItem>
+  </div>
+);
+
+export const SiteDetails = (
+  <div>
+    <ListSubheader inset>Material UI</ListSubheader>
+    <ListItem button component="a" href="https://www.reactpwa.com">
+      <ListItemIcon>
+        <WebsiteIcon/>
+      </ListItemIcon>
+      <ListItemText primary="ReactPwa.com" />
+    </ListItem>
+    <ListItem>
+      <Typography component="div">
+        Unleash the power
+      </Typography>
+    </ListItem>
+    <ListItem button>
+      <Typography component="div">
+        beyond your creativity
+      </Typography>
     </ListItem>
   </div>
 );

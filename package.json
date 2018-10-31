@@ -31,7 +31,7 @@
     }
   ],
   "devDependencies": {
-    "@pawjs/pawjs": "^2.2.3"
+    "@pawjs/pawjs": "^2.2.6"
   },
   "license": "MIT",
   "bugs": {
