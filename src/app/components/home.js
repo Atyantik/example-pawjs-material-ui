@@ -140,7 +140,7 @@ class Home extends React.Component {
                 noWrap
                 className={classes.title}
               >
-                Dashboard
+                Material-UI + ReactPWA
               </Typography>
               <Button color="default" component='a' href="https://github.com/Atyantik/example-pawjs-material-ui">
                 <Typography>
