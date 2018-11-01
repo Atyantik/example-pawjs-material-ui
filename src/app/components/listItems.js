@@ -80,15 +80,5 @@ export const SiteDetails = (
       </ListItemIcon>
       <ListItemText primary="ReactPwa.com" />
     </ListItem>
-    <ListItem>
-      <Typography component="div">
-        Unleash the power
-      </Typography>
-    </ListItem>
-    <ListItem button>
-      <Typography component="div">
-        beyond your creativity
-      </Typography>
-    </ListItem>
   </div>
 );
