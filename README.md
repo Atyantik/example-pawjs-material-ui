@@ -57,4 +57,4 @@ Everyone at Atyantik Technologies is contributing their free time for contributi
 
 
 ### License
-This project is licensed under the MIT license, Copyright (c) 2018 [Atyantik Technologies Private Limited](https://www.atyantik.com). For more information see [LICENSE.md]("https://github.com/Atyantik/example-pawjs-material-ui/blob/master/LICENSE.md").  
+This project is licensed under the MIT license, Copyright (c) 2018 [Atyantik Technologies Private Limited](https://www.atyantik.com). For more information see [LICENSE.md](https://github.com/Atyantik/example-pawjs-material-ui/blob/master/LICENSE.md).  
