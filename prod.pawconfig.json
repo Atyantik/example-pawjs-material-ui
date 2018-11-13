@@ -2,7 +2,7 @@
   "port": "9007",
   "host": "0.0.0.0",
   "appRootUrl": "/examples/material-ui",
-  "serviceWorker": false,
+  "serviceWorker": true,
   "asyncCSS": false,
   "serverSideRender": true,
   "singlePageApplication": false
